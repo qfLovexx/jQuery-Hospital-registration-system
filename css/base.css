@@ -1,0 +1,71 @@
+p { display: inline-block; margin: 0; padding: 0; }
+i { font-style: normal; display: inline-block; }
+select,
+input { border: none; outline: none; }
+
+/* #top模块内界面 样式*/
+.top { font-size: 13px; line-height: 30px; color: #868686; }
+.top .call { float: left; padding-left: 20px; background: url(../img/icon-call.png) no-repeat center left; }
+.top .welcome { float: right; }
+.top a { padding-left: 10px; color: #2da5e1; }
+
+/* #header 模块内界面 样式*/
+.header .logo { display: inline-block; width: 402px; height: 74px; padding: 9px 0; }
+.header .logo img { width: 100%; height: 100%; }
+.header .search { position: absolute; top: 29px; right: 0; width: 326px; height: 38px; background-color: orange; }
+
+/* #nav 模块内界面 样式*/
+.nav .link { font-size: 16px; line-height: 36px; display: inline-block; float: left; padding-left: 30px; text-align: center; color: #fff; }
+.nav a:hover { color: #d7f3ff; }
+.nav .menu { position: relative; width: 130px; padding-right: 30px; background-color: #1fa4f0; }
+.nav .menu .menu-list { position: absolute; top: 36px; left: 0; width: 100%; height: 423px; background-color: #1fa4f0; }
+
+/* #banner 模块内界面 样式*/
+.banner-search { background-color: #fafafa; }
+.banner-help .caption,
+.banner-search .caption { height: 22px; padding: 15px 0; text-align: center; }
+
+.banner-help .caption .text,
+.banner-search .caption .text { font-size: 16px; line-height: 22px; display: inline-block; height: 22px; padding-left: 28px; color: #fec009; background: url(../img/icon-help.png)no-repeat 0 0; }
+.banner-search .form{height: 150px;}
+.banner-search .form .line{padding-bottom: 9px;text-align: center;}
+.banner-search .form .line select{width: 170px;font-size: 12px;z-index: 0;border: 1px solid #dcdddd;height: 26px;line-height: 26px;padding:2px 0;color:#666;}
+.banner-search .submit{height: 32px;text-align: center;}
+.banner-search .submit .button{width: 108px;height: 33px;background-color: #fec009;font-size: 14px;color: #fff;border-radius: 3px;}
+
+.banner-help{background-color: #fafafa;}
+.banner-help .caption .text{color:#00b3ea;background-position: 0 -23px;}
+.banner-help .link{color:#00b3ea;display: inline-block;width: 86px;height: 26px;line-height: 26px;font-size: 14px;text-align: center;padding:0 0 8px 26px;} 
+
+/* #content 模块内界面 样式*/
+.content-tab { background: none; }
+
+.content-tab .caption{height: 34px;line-height: 34px;background:#f4f6fa;}
+.content-tab .caption .item{float: left;display: block;color:#00B3EA;height: 34px;width: 112px;text-align: center;}
+.content-tab .caption .item_focus,.content-tab .item .block-caption-item_focus{background: #60bff2; color: #fff;}
+.content-tab .block-caption{height: 26px;padding:8px;border-bottom: 1px solid #f4f6fa;}
+.content-tab .block-caption-item{display: block;float: left;padding:0 10px;line-height: 26px;font-size: 12px;color:#4c4948;}
+
+.content-tab .block-content{padding:16px 12px;}
+/*.content-tab .block-content .block-list { }*/
+.content-tab .block-content .block-list .item{float: left;width: 216px;height: 102px;padding:0 20px 10px 120px;position: relative;font-size: 12px}
+.content-tab .block-content .block-list .item img{width: 110px;height: 98px;position: absolute;top: 0;left: 0;}
+.content-tab .block-content .block-list .item-name{padding-top: 13px;color:#036EB7;font-size: 14px;line-height: 21px;}
+.content-tab .block-content .block-list .item-level{float: right;font-size: 12px;color: #979797;}
+.content-tab .block-content .block-list .item-phone,.content-tab .block-content .block-list .item-address{line-height: 18px;padding-bottom: 4px;color:#666;}
+/*.content-tab .block-content .block-text-list {}*/
+.content-tab .block-content .block-text-list .item{width: 351px;height: 27px;height: 27px;float: left;color:#666;font-size: 12px;padding-top: 8px;border-bottom: 1px dotted #dcdddd;}
+.content-tab .block-content .block-text-list .item:nth-child(2n) { margin-left: 13px; }
+.content-tab .block-content .block-text-list .level { float: right; color: #979797; }
+.content-tab .block-content .block-more { display: block; line-height: 55px; text-align: center; color: #5084C4; font-size: 14px; }
+
+.content-news,.content-close { background: #fff; border: 1px solid #f4f6fa; }
+.content-news .caption,.content-close .caption{height: 38px;line-height: 38px;background-color: #f4f6fa;color:#fec009;font-size: 15px;text-indent: 20px;}
+.content-close .caption{color:#4ab4ed;}
+.content-news .caption .more,.content-close .caption .more{float: right;padding-right: 22px;font-size: 12px;color:#868686;}
+.content-news .list,.content-close .list{padding:15px 20px 13px 35px;line-height: 29px;background: url(../img/list-yellow.jpg) 17px 21px no-repeat;}
+.content-close .list{background-image:url(../img/list-blue.jpg);}
+.content-news .list .link,.content-close .list .link{display: block;height: 29px;line-height: 29px;font-size: 12px;color:#969696;overflow: hidden;}  
+.content-news .list .link:hover,.content-close .list .link:hover{color:#4c4948;}
+/* #footer 模块内界面 样式 */
+.footer{font-size: 12px;color:#acacac;}
